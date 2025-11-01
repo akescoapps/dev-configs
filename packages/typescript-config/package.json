@@ -1,0 +1,29 @@
+{
+  "name": "@akesco/typescript-config",
+  "version": "1.0.0",
+  "description": "Shared TypeScript configurations for AKESCO projects",
+  "main": "index.js",
+  "scripts": {
+    "lint": "echo 'No linting needed for config package'",
+    "lint:fix": "echo 'No linting needed for config package'",
+    "check-types": "echo 'No type checking needed for config package'"
+  },
+  "files": [
+    "base.json",
+    "react-native.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akescoapps/dev-configs.git",
+    "directory": "packages/typescript-config"
+  },
+  "keywords": [
+    "typescript",
+    "config",
+    "akesco",
+    "tsconfig"
+  ]
+}
