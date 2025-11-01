@@ -6,6 +6,12 @@
 
 - bbfbf95: Initial release of shared development configurations for AKESCO projects
 
+## 1.0.1
+
+### Patch Changes
+
+- bbfbf95: Initial release of shared development configurations
+
 ## 1.0.0
 
 ### Major Changes
