@@ -1,7 +1,7 @@
 {
-  "name": "skipperllax-dev-configs",
+  "name": "akesco-dev-configs",
   "private": true,
-  "description": "Shared development configurations for skipperllax projects",
+  "description": "Shared development configurations for AKESCO projects",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -37,8 +37,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/skipperllax/dev-configs.git"
+    "url": "https://github.com/akescoapps/dev-configs.git"
   },
-  "author": "skipperllax",
+  "author": "AKESCO",
   "license": "MIT"
 }

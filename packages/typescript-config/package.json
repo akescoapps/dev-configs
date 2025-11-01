@@ -1,7 +1,7 @@
 {
   "name": "skipperllax-typescript-config",
   "version": "1.0.0",
-  "description": "Shared TypeScript configurations for skipperllax projects",
+  "description": "Shared TypeScript configurations for AKESCO projects",
   "main": "index.js",
   "scripts": {
     "lint": "echo 'No linting needed for config package'",
@@ -17,13 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/skipperllax/dev-configs.git",
+    "url": "https://github.com/akescoapps/dev-configs.git",
     "directory": "packages/typescript-config"
   },
   "keywords": [
     "typescript",
     "config",
-    "skipperllax",
+    "akesco",
     "tsconfig"
   ]
 }

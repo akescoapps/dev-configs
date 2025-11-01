@@ -8,7 +8,7 @@ This monorepo contains the following packages:
 
 - **[skipperllax-eslint-config](./packages/eslint-config)** - Shared ESLint configurations
 - **[skipperllax-typescript-config](./packages/typescript-config)** - Shared TypeScript configurations
-- **[@akesco/prettier-config](./packages/prettier-config)** - Shared Prettier configurations
+- **[skipperllax-prettier-config](./packages/prettier-config)** - Shared Prettier configurations
 
 ## Quick Start
 

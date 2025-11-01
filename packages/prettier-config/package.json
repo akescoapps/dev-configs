@@ -1,7 +1,7 @@
 {
   "name": "skipperllax-prettier-config",
   "version": "1.0.0",
-  "description": "Shared Prettier configuration for skipperllax projects",
+  "description": "Shared Prettier configuration for AKESCO projects",
   "main": "index.js",
   "scripts": {
     "lint": "echo 'No linting needed for config package'",
@@ -23,13 +23,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/skipperllax/dev-configs.git",
+    "url": "https://github.com/akescoapps/dev-configs.git",
     "directory": "packages/prettier-config"
   },
   "keywords": [
     "prettier",
     "config",
-    "skipperllax",
+    "akesco",
     "formatting"
   ]
 }
