@@ -1,6 +1,6 @@
 {
   "name": "skipperllax-typescript-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared TypeScript configurations for skipperllax projects",
   "main": "index.js",
   "scripts": {
