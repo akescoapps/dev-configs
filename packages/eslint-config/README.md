@@ -1,11 +1,11 @@
-# @akesco/eslint-config
+# skipperllax-eslint-config
 
 Shared ESLint configurations for AKESCO projects.
 
 ## Installation
 
 ```bash
-npm install --save-dev @akesco/eslint-config eslint prettier typescript
+npm install --save-dev skipperllax-eslint-config eslint prettier typescript
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ Create `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: ['@akesco/eslint-config'],
+  extends: ['skipperllax-eslint-config'],
 };
 ```
 
@@ -25,7 +25,7 @@ module.exports = {
 Create `eslint.config.js`:
 
 ```js
-import akescoReactNative from '@akesco/eslint-config/react-native';
+import akescoReactNative from 'skipperllax-eslint-config/react-native';
 
 export default [...akescoReactNative];
 ```

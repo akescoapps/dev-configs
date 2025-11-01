@@ -1,11 +1,11 @@
-# @akesco/typescript-config
+# skipperllax-typescript-config
 
 Shared TypeScript configurations for AKESCO projects.
 
 ## Installation
 
 ```bash
-npm install --save-dev @akesco/typescript-config typescript
+npm install --save-dev skipperllax-typescript-config typescript
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ Create `tsconfig.json`:
 
 ```json
 {
-  "extends": "@akesco/typescript-config/base"
+  "extends": "skipperllax-typescript-config/base"
 }
 ```
 
@@ -26,7 +26,7 @@ Create `tsconfig.json`:
 
 ```json
 {
-  "extends": "@akesco/typescript-config/react-native"
+  "extends": "skipperllax-typescript-config/react-native"
 }
 ```
 

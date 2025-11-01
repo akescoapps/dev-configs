@@ -1,4 +1,4 @@
-# @akesco/typescript-config
+# skipperllax-typescript-config
 
 ## 1.0.0
 

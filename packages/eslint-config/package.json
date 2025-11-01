@@ -1,8 +1,8 @@
 {
-  "name": "@akesco/eslint-config",
+  "name": "skipperllax-eslint-config",
   "version": "1.0.0",
   "type": "module",
-  "description": "Shared ESLint configurations for AKESCO projects",
+  "description": "Shared ESLint configurations for skipperllax projects",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -35,13 +35,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/akescoapps/dev-configs.git",
+    "url": "https://github.com/skipperllax/dev-configs.git",
     "directory": "packages/eslint-config"
   },
   "keywords": [
     "eslint",
     "config",
-    "akesco",
+    "skipperllax",
     "typescript",
     "react-native"
   ]

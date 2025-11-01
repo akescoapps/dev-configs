@@ -1,4 +1,4 @@
-# @akesco/eslint-config
+# skipperllax-eslint-config
 
 ## 1.0.0
 

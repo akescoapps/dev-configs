@@ -6,8 +6,8 @@ Shared development configurations for AKESCO projects including ESLint, TypeScri
 
 This monorepo contains the following packages:
 
-- **[@akesco/eslint-config](./packages/eslint-config)** - Shared ESLint configurations
-- **[@akesco/typescript-config](./packages/typescript-config)** - Shared TypeScript configurations
+- **[skipperllax-eslint-config](./packages/eslint-config)** - Shared ESLint configurations
+- **[skipperllax-typescript-config](./packages/typescript-config)** - Shared TypeScript configurations
 - **[@akesco/prettier-config](./packages/prettier-config)** - Shared Prettier configurations
 
 ## Quick Start
@@ -17,7 +17,7 @@ This monorepo contains the following packages:
 Install the ESLint config:
 
 ```bash
-npm install --save-dev @akesco/eslint-config eslint prettier typescript
+npm install --save-dev skipperllax-eslint-config eslint prettier typescript
 ```
 
 #### For Web/Node.js projects:
@@ -26,7 +26,7 @@ Create `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: ['@akesco/eslint-config'],
+  extends: ['skipperllax-eslint-config'],
 };
 ```
 
@@ -35,7 +35,7 @@ module.exports = {
 Create `eslint.config.js`:
 
 ```js
-import akescoReactNative from '@akesco/eslint-config/react-native';
+import akescoReactNative from 'skipperllax-eslint-config/react-native';
 
 export default [...akescoReactNative];
 ```
@@ -45,7 +45,7 @@ export default [...akescoReactNative];
 Install the TypeScript config:
 
 ```bash
-npm install --save-dev @akesco/typescript-config typescript
+npm install --save-dev skipperllax-typescript-config typescript
 ```
 
 #### For Web/Node.js projects:
@@ -54,7 +54,7 @@ Create `tsconfig.json`:
 
 ```json
 {
-  "extends": "@akesco/typescript-config/base"
+  "extends": "skipperllax-typescript-config/base"
 }
 ```
 
@@ -64,7 +64,7 @@ Create `tsconfig.json`:
 
 ```json
 {
-  "extends": "@akesco/typescript-config/react-native"
+  "extends": "skipperllax-typescript-config/react-native"
 }
 ```
 
@@ -131,14 +131,14 @@ pnpm lint
 
 ## Package Details
 
-### @akesco/eslint-config
+### skipperllax-eslint-config
 
 Provides ESLint configurations for different project types:
 
 - **Base config**: For general TypeScript projects
 - **React Native config**: For React Native projects with additional RN-specific rules
 
-### @akesco/typescript-config
+### skipperllax-typescript-config
 
 Provides TypeScript configurations:
 
