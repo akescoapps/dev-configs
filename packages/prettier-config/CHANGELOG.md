@@ -1,5 +1,11 @@
 # @akesco/prettier-config
 
+## 1.0.1
+
+### Patch Changes
+
+- bbfbf95: Initial release of shared development configurations
+
 ## 1.0.0
 
 ### Major Changes
