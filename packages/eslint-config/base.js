@@ -16,17 +16,5 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/prefer-const': 'error',
     'no-console': ['warn', { allow: ['warn', 'error'] }],
-    // Import rules
-    'import/order': [
-      'error',
-      {
-        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
-        'newlines-between': 'always',
-        alphabetize: {
-          order: 'asc',
-          caseInsensitive: true,
-        },
-      },
-    ],
   },
 };

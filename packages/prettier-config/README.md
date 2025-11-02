@@ -1,11 +1,11 @@
-# @akesco/prettier-config
+# skipperllax-prettier-config
 
 Shared Prettier configurations for AKESCO projects.
 
 ## Installation
 
 ```bash
-npm install --save-dev @akesco/prettier-config prettier
+npm install --save-dev skipperllax-prettier-config prettier
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save-dev @akesco/prettier-config prettier
 Create `.prettierrc`:
 
 ```
-@akesco/prettier-config
+skipperllax-prettier-config
 ```
 
 ### For React Native projects
@@ -23,7 +23,7 @@ Create `.prettierrc`:
 Create `.prettierrc`:
 
 ```
-@akesco/prettier-config/react-native
+skipperllax-prettier-config/react-native
 ```
 
 ## What's included
@@ -34,18 +34,15 @@ Create `.prettierrc`:
 - 2 space indentation
 - Single quotes
 - Trailing commas
-- Automatic import sorting
 
 ### React Native Configuration
 
 - All base settings
-- React Native optimized import order
-- React/React Native imports prioritized
-- Expo and navigation imports organized
+- React Native friendly JSX settings
+- Mobile-focused defaults
 
 ## Features
 
-- **Import Sorting**: Automatically organizes imports in a logical order
 - **Consistent Formatting**: Ensures consistent code style across projects
 - **React Native Optimized**: Special configuration for mobile development
 

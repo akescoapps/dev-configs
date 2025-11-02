@@ -12,9 +12,6 @@
     "index.js",
     "react-native.js"
   ],
-  "dependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.3.0"
-  },
   "peerDependencies": {
     "prettier": "^3.0.0"
   },

@@ -73,7 +73,7 @@ Create `tsconfig.json`:
 Install the Prettier config:
 
 ```bash
-npm install --save-dev @akesco/prettier-config prettier
+npm install --save-dev skipperllax-prettier-config prettier
 ```
 
 #### For Web/Node.js projects:
@@ -81,7 +81,7 @@ npm install --save-dev @akesco/prettier-config prettier
 Create `.prettierrc`:
 
 ```
-@akesco/prettier-config
+skipperllax-prettier-config
 ```
 
 #### For React Native projects:
@@ -89,7 +89,7 @@ Create `.prettierrc`:
 Create `.prettierrc`:
 
 ```
-@akesco/prettier-config/react-native
+skipperllax-prettier-config/react-native
 ```
 
 ## Development
@@ -145,12 +145,12 @@ Provides TypeScript configurations:
 - **Base config**: For general projects
 - **React Native config**: For React Native projects with appropriate settings
 
-### @akesco/prettier-config
+### skipperllax-prettier-config
 
 Provides Prettier configurations:
 
 - **Default config**: For general projects
-- **React Native config**: For React Native projects with import sorting optimized for RN
+- **React Native config**: For React Native projects with mobile-friendly defaults
 
 ## Contributing
 

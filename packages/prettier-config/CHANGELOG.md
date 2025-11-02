@@ -1,4 +1,4 @@
-# @akesco/prettier-config
+# skipperllax-prettier-config
 
 ## 1.0.1
 
@@ -18,5 +18,5 @@
 
 - Initial release of shared Prettier configurations
 - Base configuration with consistent formatting rules
-- React Native configuration with optimized import sorting
-- Automatic import organization with smart grouping
+- React Native configuration with mobile-focused defaults
+- Consistent formatting across shared projects
