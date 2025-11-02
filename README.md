@@ -6,7 +6,7 @@ Shared development configurations for AKESCO projects including ESLint, TypeScri
 
 This monorepo contains the following packages:
 
-- **[skipperllax-eslint-config](./packages/eslint-config)** - Shared ESLint configurations
+- **[skipperllax-eslint-config](./packages/eslint-config)** - Shared ESLint configurations (ESLint 9+ compatible)
 - **[skipperllax-typescript-config](./packages/typescript-config)** - Shared TypeScript configurations
 - **[skipperllax-prettier-config](./packages/prettier-config)** - Shared Prettier configurations
 
@@ -30,14 +30,14 @@ module.exports = {
 };
 ```
 
-#### For React Native projects:
+#### For React Native projects (ESLint 9+ Flat Config):
 
 Create `eslint.config.js`:
 
 ```js
-import akescoReactNative from 'skipperllax-eslint-config/react-native';
+import skipperllaxReactNative from 'skipperllax-eslint-config/react-native';
 
-export default [...akescoReactNative];
+export default [...skipperllaxReactNative];
 ```
 
 ### TypeScript Configuration
@@ -135,8 +135,9 @@ pnpm lint
 
 Provides ESLint configurations for different project types:
 
-- **Base config**: For general TypeScript projects
-- **React Native config**: For React Native projects with additional RN-specific rules
+- **Base config**: For general TypeScript projects (legacy .eslintrc.js format)
+- **React Native config**: ESLint 9+ flat config format with RN-specific rules
+- **Optional import sorting**: Disabled by default, can be enabled per project
 
 ### skipperllax-typescript-config
 

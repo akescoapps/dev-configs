@@ -1,5 +1,6 @@
 import callstackConfig from '@callstack/eslint-config/react-native.flat.js';
 import typescriptEslint from '@typescript-eslint/eslint-plugin';
+import importPlugin from 'eslint-plugin-import';
 
 export default [
   ...callstackConfig,
@@ -9,6 +10,7 @@ export default [
   {
     plugins: {
       '@typescript-eslint': typescriptEslint,
+      import: importPlugin,
     },
     settings: {
       'import/resolver': {
@@ -31,24 +33,17 @@ export default [
       'no-console': ['warn', { allow: ['warn', 'error', 'info'] }],
 
       // Import organization
-      // "import/order": [
-      //   "error",
-      //   {
-      //     groups: [
-      //       "builtin",
-      //       "external",
-      //       "internal",
-      //       "parent",
-      //       "sibling",
-      //       "index",
-      //     ],
-      //     "newlines-between": "always",
-      //     alphabetize: {
-      //       order: "asc",
-      //       caseInsensitive: true,
-      //     },
-      //   },
-      // ],
+      'import/order': [
+        'error',
+        {
+          groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+          'newlines-between': 'always',
+          alphabetize: {
+            order: 'asc',
+            caseInsensitive: true,
+          },
+        },
+      ],
     },
   },
 ];

@@ -2,6 +2,8 @@
 
 Shared ESLint configurations for AKESCO projects.
 
+**✅ ESLint 9+ Compatible** - Uses the new flat config format for React Native projects.
+
 ## Installation
 
 ```bash
@@ -20,14 +22,14 @@ module.exports = {
 };
 ```
 
-### For React Native projects
+### For React Native projects (ESLint 9+ Flat Config)
 
 Create `eslint.config.js`:
 
 ```js
-import akescoReactNative from 'skipperllax-eslint-config/react-native';
+import skipperllaxReactNative from 'skipperllax-eslint-config/react-native';
 
-export default [...akescoReactNative];
+export default [...skipperllaxReactNative];
 ```
 
 ## What's included
@@ -38,14 +40,68 @@ export default [...akescoReactNative];
 - TypeScript ESLint recommended rules
 - Prettier integration
 - Custom rules for code quality
+- **Optional import ordering** (commented out by default - enable if needed)
 
 ### React Native Configuration
 
 - All base rules
-- React Native specific rules
+- React Native specific rules (via @callstack/eslint-config)
 - React hooks rules
-- Import organization rules
+- **Optional import organization** (commented out by default)
 - Platform-specific component rules
+- ESLint 9+ flat config format
+
+## Optional: Enable Import Sorting
+
+By default, import sorting is **disabled** to give you full control over import order.
+
+To enable automatic import sorting, uncomment the `import/order` rule in your config:
+
+**For base config**, edit `.eslintrc.js`:
+
+```js
+module.exports = {
+  extends: ['skipperllax-eslint-config'],
+  rules: {
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+        'newlines-between': 'always',
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+      },
+    ],
+  },
+};
+```
+
+**For React Native**, edit `eslint.config.js`:
+
+```js
+import skipperllaxReactNative from 'skipperllax-eslint-config/react-native';
+
+export default [
+  ...skipperllaxReactNative,
+  {
+    rules: {
+      'import/order': [
+        'error',
+        {
+          groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+          'newlines-between': 'always',
+          alphabetize: {
+            order: 'asc',
+            caseInsensitive: true,
+          },
+        },
+      ],
+    },
+  },
+];
+```
 
 ## Peer Dependencies
 
