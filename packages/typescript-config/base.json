@@ -1,36 +1,23 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Expo Strict",
+  "display": "Base Strict",
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "preserve",           
-    "moduleResolution": "bundler",  
-    "jsx": "react-native",          
-    "lib": ["DOM", "ESNext"],       
-    "customConditions": ["react-native"], 
-    "allowJs": true,
-    "noEmit": true,  
     "strict": true,
-    "noUncheckedIndexedAccess": true,    
-    "exactOptionalPropertyTypes": true,  
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,              
-    "noUnusedParameters": true,         
-    "verbatimModuleSyntax": true,        
-    "forceConsistentCasingInFileNames": true,
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,    
     "esModuleInterop": true,
-    "skipLibCheck": true,           
-    "resolveJsonModule": true,      
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
     "isolatedModules": true,
-    "moduleDetection": "force"
-  },
-  "exclude": [
-    "node_modules",
-    "babel.config.js",
-    "metro.config.js",
-    "jest.config.js"
-  ]
+    "moduleDetection": "force",      
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "verbatimModuleSyntax": true
+  }
 }
