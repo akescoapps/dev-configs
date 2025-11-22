@@ -2,12 +2,12 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "React Native",
   "extends": "./base.json",
-  "compilerOptions": {    
+  "compilerOptions": {
     "target": "ESNext",
-    "module": "preserve",           
+    "module": "preserve",
     "moduleResolution": "bundler",
-    "jsx": "react-native",          
-    "lib": ["DOM", "ESNext"],    
+    "jsx": "react-native",
+    "lib": ["DOM", "ESNext"],
     "allowJs": true,
     "declaration": false,
     "noEmit": true,

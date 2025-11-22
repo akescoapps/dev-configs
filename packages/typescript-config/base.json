@@ -9,7 +9,7 @@
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "moduleDetection": "force",      
+    "moduleDetection": "force",
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     "allowUnreachableCode": false,
