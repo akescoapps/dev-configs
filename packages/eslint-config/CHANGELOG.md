@@ -1,5 +1,11 @@
 # skipperllax-eslint-config
 
+## 1.1.1
+
+### Patch Changes
+
+- 2408253: Remove import/order rule
+
 ## 1.1.0
 
 ### Minor Changes
