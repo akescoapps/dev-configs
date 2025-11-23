@@ -1,5 +1,11 @@
 # skipperllax-prettier-config
 
+## 1.1.0
+
+### Minor Changes
+
+- fff9e7f: changed ts configs
+
 ## 1.0.1
 
 ### Patch Changes

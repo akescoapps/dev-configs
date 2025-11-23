@@ -1,6 +1,6 @@
 {
   "name": "skipperllax-typescript-config",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Shared TypeScript configurations for AKESCO projects",
   "main": "index.js",
   "scripts": {
