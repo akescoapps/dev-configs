@@ -33,6 +33,7 @@ export default [
       'no-console': ['warn', { allow: ['warn', 'error', 'info'] }],
 
       // Import organization
+      'import/order': 'off',
     },
   },
 ];
